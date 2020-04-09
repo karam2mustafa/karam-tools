@@ -1,0 +1,25 @@
+{
+    "name": "karam-tools/dev-path",
+    "description": "this is package help us to build easy api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "karam mustafa",
+            "email": "karam2mustafa@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Path\\" : "src/"
+        }
+    },
+    "extra" :{
+        "laravel" : {
+            "providers" : [
+                "Path\\Commands\\DevPathServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
